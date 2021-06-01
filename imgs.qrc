@@ -1,0 +1,13 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>images/wandavision.png</file>
+    <file>images/loki.png</file>
+    <file>images/falcon.png</file>
+    <file>images/siliconvalley.png</file>
+    <file>images/titans.png</file>
+    <file>images/legacies.png</file>
+    <file>images/friends.png</file>
+    <file>images/strangerthings.png</file>
+    <file>images/thehundred.png</file>
+  </qresource>
+</RCC>
