@@ -13,7 +13,6 @@ import imgs
 
 class Ui_MainWindow(object):
     def table_window(self,data):
-
         from table import  Ui_MainWindow
         self.window = QtWidgets.QMainWindow()
         self.ui = Ui_MainWindow()

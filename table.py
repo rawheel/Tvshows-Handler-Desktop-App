@@ -65,9 +65,10 @@ class Ui_MainWindow(object):
         item.setText(_translate("MainWindow", "IMDB Ratings"))
         item = self.tableWidget.horizontalHeaderItem(5)
         item.setText(_translate("MainWindow", "Network"))
+
     def loadTableData(self,table_data):
-        #table_data = [(1,"hey",'j','l','las','jda')]
-        #table_data  = [{'id':1,'name':'raheel','seasons':1,'episodes':8,'ratings':8.1,'network':'netflix'}]
+
+        #table_data  = [{'id':1,'name':'GOT','seasons':7,'episodes':70,'ratings':9.5,'network':'HBO'}]
         for row_number , row_data in enumerate(table_data):
                 
             self.tableWidget.insertRow(row_number)
