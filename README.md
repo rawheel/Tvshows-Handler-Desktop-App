@@ -24,6 +24,15 @@ Two windows:
   a.	Table Widget
 
 ```
+## Qtdesigner to python commands
+#### for .ui to .py
+```
+pyuic5 -x filename.ui -o filename.py
+```
+#### for .qrc to .py
+```
+pyrcc5 -x imagefilename.qrc -o imagefilename.py
+```
 
 ## Addition in main.py
 
