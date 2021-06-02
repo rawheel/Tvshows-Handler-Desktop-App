@@ -12,12 +12,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 import imgs
 
 class Ui_MainWindow(object):
-    def table_window(self,data):
-        from table import  Ui_MainWindow
-        self.window = QtWidgets.QMainWindow()
-        self.ui = Ui_MainWindow()
-        self.ui.setupUi(self.window,data)
-        self.window.show()
+
 
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
