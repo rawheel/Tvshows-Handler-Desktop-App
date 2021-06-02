@@ -37,9 +37,11 @@ class Ui_MainWindow(object):
         self.main_frame.setObjectName("main_frame")
         self.comboBox = QtWidgets.QComboBox(self.main_frame)
         self.comboBox.setGeometry(QtCore.QRect(270, 40, 241, 41))
-        self.comboBox.setStyleSheet("background-color:#fff;\n"
+        self.comboBox.setStyleSheet(" background-color:#fff;\n"
 "font: 14pt \".AppleSystemUIFont\";\n"
-"border-radius:5px;")
+"border-radius:5px;\n")
+
+
         self.comboBox.setObjectName("comboBox")
         self.comboBox.addItem("")
         self.comboBox.addItem("")
