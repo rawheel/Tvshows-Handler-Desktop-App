@@ -1,5 +1,5 @@
 # Tvshows Listing Desktop App
-A simple GUI app to manage tv shows data, Developed using pyqt5 including all basics concepts and understanding.
+A simple GUI app to manage tv shows data. 📷
 
 <img src="https://github.com/rawheel/Tvshows-Listing-Desktop-App/blob/main/screenshots/ss2.png" alt="ss1">
 
