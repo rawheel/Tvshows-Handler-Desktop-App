@@ -1,5 +1,5 @@
 # Tvshows Listing Desktop App
-A simple GUI app to manage tv shows data, Developed using pyqt5 including all basics concepts and understanding.
+A simple GUI app to manage tv shows data. 📷
 
 <img src="https://github.com/rawheel/Tvshows-Listing-Desktop-App/blob/main/screenshots/ss2.png" alt="ss1">
 
@@ -23,6 +23,35 @@ Two windows:
 2)	Table Window
   a.	Table Widget
 
+```
+## Color Pallete
+```
+dark-blue: #0a1931,
+red:  rgb(219,68,55),
+yellow: #ffc947
+```
+## Button Design 
+```
+#go_btn{
+background-color: rgb(219,68,55) ;
+	color: rgb(255, 255, 255);
+	font: 57 14pt "Google Sans";
+border-radius:7px;
+}
+#go_btn:hover{
+background-color:#ffc947;
+
+	color: rgb(255, 255, 255);
+}
+```
+## Qtdesigner to python
+#### for .ui to .py
+```
+pyuic5 -x filename.ui -o filename.py
+```
+#### for .qrc to .py
+```
+pyrcc5 -x imagefilename.qrc -o imagefilename.py
 ```
 
 ## Addition in main.py
