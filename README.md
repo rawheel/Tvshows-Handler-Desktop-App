@@ -24,7 +24,27 @@ Two windows:
   a.	Table Widget
 
 ```
-## Qtdesigner to python commands
+## Color Pallete
+```
+dark-blue: #0a1931,
+red:  rgb(219,68,55),
+yellow: #ffc947
+```
+## Button Design 
+```
+#go_btn{
+background-color: rgb(219,68,55) ;
+	color: rgb(255, 255, 255);
+	font: 57 14pt "Google Sans";
+border-radius:7px;
+}
+#go_btn:hover{
+background-color:#ffc947;
+
+	color: rgb(255, 255, 255);
+}
+```
+## Qtdesigner to python
 #### for .ui to .py
 ```
 pyuic5 -x filename.ui -o filename.py
