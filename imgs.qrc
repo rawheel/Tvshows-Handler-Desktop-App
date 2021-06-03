@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>images/falcon.png</file>
+    <file>images/loki.png</file>
+    <file>images/strangerthings.png</file>
+    <file>images/thehundred.png</file>
+  </qresource>
+</RCC>
